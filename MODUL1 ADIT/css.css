@@ -1,0 +1,51 @@
+body{
+	background-color:#f1f2f6;
+}
+#logos{
+	height: 40px;
+	width:140px;
+}
+#prof1:hover{
+	background-color: #3c6382;
+}
+#prod1:hover{
+	background-color: #3c6382;
+}
+#home1:hover{
+	background-color: #3c6382;
+}
+#content{
+	background-color: #a4b0be;
+}
+#content1{
+	padding-top: 120px;
+	padding-left: 20px;
+	padding-bottom: 70px;
+	padding-right: 20px;
+	background-color: #a4b0be;
+}
+#form{
+	background-color: white;
+}
+h3{
+	padding-top: 40px;
+
+}
+form{
+	padding-left: 70px;
+}
+#check1{
+	padding-left: 10px;
+}
+#pembayar{
+	padding-right: 10px;
+}
+#button1{
+	width: 430px;
+}
+#let{
+	padding-left: 200px;
+}
+#badan{
+	background-color: #fff
+}

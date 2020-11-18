@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<title></title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<img class="navbar-brand" id="logos" src="img/logo-ead.png" >
+
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item active" id="home1">
+					<a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item" id="prof1">
+					<a class="nav-link" href="profile.html">Profile</a>
+				</li>
+				<li class="nav-item" id="prod1">
+					<a class="nav-link" href="product.html">Product</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<br>
+	<div class="container" id="content">
+		<div class="row">
+			<div class="col-md-6" id="content1">
+				<iframe width="530" height="360" src="https://www.youtube.com/embed/AwMeQJ_u73I" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6" id="form">
+				<h3 class="text-center">Registrasi Data Pelanggan</h3> <br>	
+				<form>
+					<div class="form-group row">
+						<label for="nama" class="col-sm-4 col-form-label">Nama </label>
+						<div class="col-sm-7">
+							<input type="text" class="form-control" name="nama" value="" id="nama" placeholder="Nama anda...">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="nohp" class="col-sm-4 col-form-label">Nomor Hp</label>
+						<div class="col-sm-7">
+							<input type="text" class="form-control" name="nohp" value="" id="nohp">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="alamat" class="col-sm-4 col-form-label">Alamat</label>
+						<div class="col-sm-7">
+							<textarea class="form-control" name="alamat" value="" id="alamat"> </textarea>
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="pembayaran" class="col-sm-4 col-form-label">Pembayaran</label>
+						<div class="col-sm-7">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+								<label class="form-check-label" for="exampleRadios1">
+									Cash
+								</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+								<label class="form-check-label" for="exampleRadios2">
+									Credit
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="pembayaran" class="col-sm-4 col-form-label">Kategori Pesanan</label>
+						<div class="col-sm-7">
+							<select class="custom-select">
+								<option value="">Komputer</option>
+								<option value="">Keyboard</option>
+								<option value="">Mouse</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-7">
+							<button type="submit" id="button1" class="btn btn-primary text-center" >Kirim</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
