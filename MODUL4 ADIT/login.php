@@ -9,7 +9,7 @@ if (isset($_SESSION["login"])){
 require 'functions.php';
 
 //cek cookie 
-if (isset ($_COOKIE['login']) && isset ($_COOKIE['key'])){
+if (isset ($_COOKIE['login']) || isset ($_COOKIE['key'])){
 	$id = $_COOKIE['id'];
 	$key = $_COOKIE['key'];
 
@@ -47,7 +47,7 @@ if( isset($_POST["login"])){
 
 			if (isset($_POST['check'])){
 				//buat cookie
-				setcookie('id',$dt['id'], time()+120);
+				setsession('id',$dt['id'], time()+120);
 				setcookie('key',hash('sha256',$dt['email']), time()+120);
 			}
 			header("Location: index.php");
